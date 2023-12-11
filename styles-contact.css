@@ -1,0 +1,191 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/space_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+	
+	
+}
+
+.center {
+    width: 60%;/*for responsiveness*/
+	min-width: 200px;/*for responsiveness*/
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(109, 117, 119, 0.4); /*this uses opacity of 40% for the background color and changes the color*/
+	text-align: center;
+	border-radius: 50px 50px 50px 50px; /*making the corned rounded for the center*/
+	border : 4px inset silver; /*added inset border*/
+
+	/*Fade in code from lab video*/
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn 5s;
+	-moz-animation: fadeIn 5s;
+	-o-animation: fadeIn 5s;
+	-ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn{
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+	/*End of fade in code from lab video*/
+   
+#logo {
+    width: 70%; /*for responsiveness*/
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+h1 {
+	font-family: "jaf-lapture", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 2.2em;
+    margin: 50px auto 10px auto;
+    color: #fff;
+	margin-top: 0em;
+	/* letter-spacing: .05em; kerning*/
+}
+
+h2 {
+	font-family: "franklin-gothic-atf", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.7em;
+    line-height: 1.4;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 0px auto 0px auto;
+}
+
+p {
+	font-family: "franklin-gothic-atf", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1.4em;
+    line-height: 1.2;
+    color: #fff;
+	margin-top: 2em;
+}
+nav{
+	font-family: "ff-dagny-web-pro", sans-serif;
+	font-weight: 700;
+	font-style: normal;	
+	font-size: 2em;
+	width: 400x;
+	margin: 0 auto;
+	/*border: dotted red;*/
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: .2em;
+	width: 70%; /*for responsiveness*/
+}
+
+nav li{
+	display: inline;
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px;
+}
+
+a{
+	color: whitesmoke;
+	text-decoration: none;
+	font-family: "jaf-lapture", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+a:hover{
+	color: black;
+	background: white;
+	border-radius: 25px 25px 25px 25px; /*making border of hover rounded*/
+}
+
+    
+
